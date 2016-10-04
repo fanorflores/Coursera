@@ -16,24 +16,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/wlc"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
         android:textSize="40sp"
         android:textStyle="normal|bold"
         android:textAlignment="center"
         android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true" />
 
     <Button
         android:text="Enter"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_marginTop="105dp"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
         style="@style/Widget.AppCompat.Button"
         android:background="@android:color/holo_blue_light"
-        android:textSize="18sp"
-        android:textColor="@android:color/white" />
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
 </RelativeLayout>

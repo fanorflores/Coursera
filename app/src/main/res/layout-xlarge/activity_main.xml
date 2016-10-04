@@ -15,13 +15,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/wlc"
-        android:textSize="85sp"
+        android:textSize="60sp"
         android:textStyle="normal|bold"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:layout_marginTop="220dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
+        android:layout_marginTop="114dp"
         android:layout_alignParentEnd="true" />
 
     <Button
@@ -29,12 +29,13 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/button"
+        android:layout_marginTop="243dp"
 
         style="@style/Widget.AppCompat.Button"
         android:background="@android:color/holo_blue_light"
-        android:textSize="40sp"
+        android:textSize="28sp"
         android:textColor="@android:color/white"
         tools:ignore="HardcodedText"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
